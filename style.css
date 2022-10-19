@@ -23,7 +23,6 @@ body{
 }
 
 .container{
-    width: 250rem;
     display: block;
     flex-direction: row;
     align-content: center;
