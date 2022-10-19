@@ -1,0 +1,54 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10 px*/
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h1{
+    font-size: 7rem;
+}
+
+p{
+    font-size: 5rem;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20rem;
+    background-color: #759eff;
+}
+
+.container{
+    width: 250rem;
+    display: block;
+    flex-direction: row;
+    align-content: center;
+    justify-items: center;
+    padding: 5rem;
+    text-align: center;
+    background-color: #75c7ff;
+    border-radius: 2rem;
+    color: #525558;
+    border: .1rem solid #525558;
+}
+
+.header img{
+    width: 20rem;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.btn{
+    width: 20rem;
+    height: 5rem;
+    font-size: 2rem;
+    background-color: #525558;
+    color: #FFF;
+}
